@@ -1,0 +1,12 @@
+#comment::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent #212121 transparent transparent;
+  top: 100%;
+  transform: translateY(-50%);
+  left: -20px;
+}
